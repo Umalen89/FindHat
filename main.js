@@ -60,6 +60,7 @@ class Field{
     }
 
     checkDifficulty() {
+        // select the percentage of holes based on difficulty
         let level = prompt("Select difficulty easy, medium, hard: ").toLowerCase();
         let holes;
       
